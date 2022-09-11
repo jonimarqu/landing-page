@@ -1,0 +1,196 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.blue {
+    color: #F9FAF8;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 12px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    gap: 22px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one {
+    padding: 100px 0;
+    gap: 40px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: #6D747D;
+    min-height: 200px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one button {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.white {
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+}
+
+.card .img {
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    box-sizing: border-box;
+    height: 150px;
+    width: inherit;
+    display: flex;
+
+}
+
+.card .text {
+    width: inherit;
+    text-align: center;
+}
+
+.dark-grey {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.section-three {
+    padding: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+    color: #1F2937;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.signed {
+    font-size: x-large;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.grey {
+    background-color: whitesmoke;
+    padding: 100px 0;
+}
+
+.section-four {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 120px;
+    max-width: 1000px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.not-bold {
+    color: #E5E7EB;
+}
+
+.section-four button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    font-weight: bold;
+    font-size: inherit;
+    padding: 8px 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
